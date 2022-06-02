@@ -9,4 +9,4 @@ jobs:
       - run: npm install -g @ionic/cli
       - name: Check o repositorio
         uses: actions/checkout@v3
-      - run: echo ok...
+      - run: ionic --version
