@@ -4,8 +4,8 @@ on: [push]
 
 jobs: 
    Print-Hello-World:
-   runs-on: ubuntu-latest
-   steps:
+    runs-on: ubuntu-latest
+    steps:
       - run: echo Hello word
       - name: Check o repositorio
         uses: actions/checkout@v3
