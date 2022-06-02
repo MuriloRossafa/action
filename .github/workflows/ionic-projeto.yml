@@ -6,7 +6,7 @@ jobs:
    Print-Hello-World:
     runs-on: ubuntu-latest
     steps:
-      - run: echo Hello word
+      - run: npm install -g @ionic/cli
       - name: Check o repositorio
         uses: actions/checkout@v3
       - run: echo ok...
